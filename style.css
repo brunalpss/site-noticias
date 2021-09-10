@@ -1,0 +1,122 @@
+html
+{
+    height:100%;
+    width:100%;  
+}
+
+body
+{
+    background-color: rgb(177, 177, 177);
+}
+
+.context-dark, .bg-gray-dark, .bg-primary
+{
+    color: white;
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active
+{
+    color: white;
+}
+
+.nav-list li
+{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.nav-list li a:hover:before
+{
+    margin-left:0;
+    opacity:1;
+    visibility:visible;
+}
+
+ul, ol
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.social-inner
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    padding:23px;
+    font:900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform:uppercase;
+    color: white;
+}
+
+.social-container .col
+{
+    border:1px solid white;
+}
+
+.nav-list li a:before
+{
+    content:"\f14f";
+    font:400 21px/1 "Material Design Icons";
+    color: white;
+    display:inline-block;
+    vertical-align:baseline;
+    margin-left:-28px;
+    margin-right:7px;
+    opacity:0;
+    visibility:hidden;
+    transition:.22s ease;
+}
+
+.box-noticia{
+    border-bottom:1px solid;
+    background-color: rgb(116, 116, 116);
+    padding: 15px;
+}
+
+.box-noticia img{
+float: left;
+padding: 15px;
+}
+
+.box-noticia .titulo h1{
+    font-size: 1.7em;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+.box-noticia .creditos p{
+   color: #001558;
+   font-style: oblique;
+   font-weight: bold;
+}
+
+.box-noticia .texto p{
+color: black;
+font-weight: bold;
+}
+
+.box-noticia a{
+    float:right;
+}
+
+.btn-blog {
+    color: #ffffff;
+    background-color: #3455c0;
+    border-color: #74a1d4;
+    border-radius:0;
+    margin-bottom:10px
+}
+
+.btn-blog:hover,
+.btn-blog:focus,
+.btn-blog:active,
+.btn-blog.active,
+.open .dropdown-toggle.btn-blog{
+    color: rgb(19, 16, 16);
+    background-color:#525dff;
+    border-color: #8baad8;
+}
